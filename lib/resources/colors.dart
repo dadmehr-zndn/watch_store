@@ -32,7 +32,7 @@ class LightAppColors {
 
   static const Color seeAll = Color(0xff000000);
   static const Color amazing = Color(0xff391850);
-  static const Color bestSelling = Color(0xffCF2755);
+  static const Color bestSellings = Color(0xffCF2755);
   static const Color newest = Color(0xff777777);
 
   static const Color productTitle = Color(0xff333333);
