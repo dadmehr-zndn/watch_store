@@ -1,12 +1,14 @@
 class AppStrings {
   AppStrings._();
 
+  static const String phoneNumber = 'phoneNumber';
+
   static const String enterYourNumber = 'شماره خود را وارد کنید';
   static const String enterYourNumberHint = 'مثل :  09121114466';
   static const String sendActivationCode = 'ارسال کد فعال سازی';
 
   static const String activationCodeSentToNumber =
-      'کد فعال سازی برای 09112223344 ارسال شد';
+      'کد فعال سازی برای $phoneNumber ارسال شد';
   static const String wrongNumberOrEdit = 'شماره اشتباه است/ ویرایش شماره';
   static const String enterActivationCode = 'کد فعال سازی را وارد کنید';
   static const String timeRemainedCode = '2:05';
