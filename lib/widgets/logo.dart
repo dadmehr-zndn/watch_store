@@ -8,7 +8,7 @@ class WatchStoreLogo extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Image.asset(
-      Assets.png.lgoo.path,
+      Assets.png.logo.path,
       height: 121.h,
       width: 300.w,
     );
