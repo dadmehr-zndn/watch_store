@@ -12,14 +12,14 @@ import 'package:flutter/widgets.dart';
 class $AssetsPngGen {
   const $AssetsPngGen();
 
-  /// File path: assets/png/lgoo.png
-  AssetGenImage get lgoo => const AssetGenImage('assets/png/lgoo.png');
+  /// File path: assets/png/logo.png
+  AssetGenImage get logo => const AssetGenImage('assets/png/logo.png');
 
   /// File path: assets/png/watch.png
   AssetGenImage get watch => const AssetGenImage('assets/png/watch.png');
 
   /// List of all assets
-  List<AssetGenImage> get values => [lgoo, watch];
+  List<AssetGenImage> get values => [logo, watch];
 }
 
 class $AssetsSvgGen {
