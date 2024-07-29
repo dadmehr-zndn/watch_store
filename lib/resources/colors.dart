@@ -12,7 +12,7 @@ class LightAppColors {
   static const Color textFieldBorder = Color(0xffD9DCE4);
   static const Color textFieldFill = Color(0xffFFFFFF);
   static const Color textFieldBorderSelected = Color(0xff0075FB);
-  static const Color textFieldPrefixIcon = Color(0xff000000);
+  static const Color textFieldPrefixIcon = Color(0xff292D32);
 
   static const Color button = Color(0xff0075FB);
   static const Color buttonText = Color(0xffFFFFFF);
