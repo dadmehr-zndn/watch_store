@@ -56,4 +56,74 @@ class LightAppTextStyles {
     fontSize: 14.sp,
     fontWeight: FontWeight.w400,
   );
+  static TextStyle btmNavBarItemSelected = TextStyle(
+    color: LightAppColors.btmNavBarItemSelected,
+    fontFamily: FontFamily.dana,
+    fontSize: 12.sp,
+    fontWeight: FontWeight.w400,
+  );
+  static TextStyle btmNavBarItemNotSelected = TextStyle(
+    color: LightAppColors.btmNavBarIconNotSelectedText,
+    fontFamily: FontFamily.dana,
+    fontSize: 12.sp,
+    fontWeight: FontWeight.w400,
+  );
+  static TextStyle searchBarHint = TextStyle(
+    color: LightAppColors.searchBarTextHint,
+    fontFamily: FontFamily.dana,
+    fontSize: 14.sp,
+    fontWeight: FontWeight.w400,
+  );
+  static TextStyle catTitle = TextStyle(
+    color: LightAppColors.catTitle,
+    fontFamily: FontFamily.dana,
+    fontSize: 13.sp,
+    fontWeight: FontWeight.w400,
+  );
+  static TextStyle seeAll = TextStyle(
+    color: LightAppColors.seeAll,
+    fontFamily: FontFamily.dana,
+    fontSize: 12.sp,
+    fontWeight: FontWeight.w500,
+  );
+  static TextStyle amazingProducts = TextStyle(
+    color: LightAppColors.amazing,
+    fontFamily: FontFamily.dana,
+    fontSize: 26.sp,
+    fontWeight: FontWeight.w400,
+  );
+
+  // P R I C E
+  static TextStyle productTitle = TextStyle(
+    color: LightAppColors.productTitle,
+    fontFamily: FontFamily.dana,
+    fontSize: 13.sp,
+    fontWeight: FontWeight.w400,
+  );
+  static TextStyle productPrice = TextStyle(
+    color: LightAppColors.productCertainPrice,
+    fontFamily: FontFamily.dana,
+    fontSize: 11.sp,
+    fontWeight: FontWeight.w300,
+  );
+  static TextStyle productPreviousPrice = TextStyle(
+    color: LightAppColors.productPreviousPrice,
+    fontFamily: FontFamily.dana,
+    fontSize: 11.sp,
+    fontWeight: FontWeight.w300,
+    decoration: TextDecoration.lineThrough,
+    decorationThickness: 2,
+  );
+  static TextStyle productDiscount = TextStyle(
+    color: LightAppColors.discountPercentText,
+    fontFamily: FontFamily.dana,
+    fontSize: 11.sp,
+    fontWeight: FontWeight.w400,
+  );
+  static TextStyle productCountdown = TextStyle(
+    color: LightAppColors.productDiscountCountdownTimer,
+    fontFamily: FontFamily.dana,
+    fontSize: 13.sp,
+    fontWeight: FontWeight.w300,
+  );
 }
