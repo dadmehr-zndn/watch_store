@@ -26,7 +26,11 @@ ThemeData get lightTheme {
       filled: true,
       prefixIconColor: LightAppColors.textFieldPrefixIcon,
       contentPadding: EdgeInsets.fromLTRB(
-          Dimens.textFieldIconPadding, 0, Dimens.textFieldContentPadding, 0),
+        Dimens.textFieldIconPadding,
+        0,
+        Dimens.textFieldContentPadding,
+        0,
+      ),
       hintStyle: LightAppTextStyles.textFieldHint,
     ),
   );
