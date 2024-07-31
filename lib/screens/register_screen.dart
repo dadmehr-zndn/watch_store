@@ -23,6 +23,7 @@ class RegisterScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return SafeArea(
       child: Scaffold(
+        backgroundColor: LightAppColors.onBoardingSurface,
         appBar: WatchStoreRegisterAppBar(),
         body: Center(
           child: Column(
