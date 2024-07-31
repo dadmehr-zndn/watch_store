@@ -5,7 +5,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:watch_store/components/extensions.dart';
 import 'package:watch_store/components/text_styles.dart';
-import 'package:watch_store/resources/strings.dart';
+import 'package:watch_store/resources/resources.dart';
 import 'package:watch_store/routes/routes_names.dart';
 import 'package:watch_store/widgets/logo.dart';
 import 'package:watch_store/widgets/primary_button.dart';
@@ -17,6 +17,7 @@ class CheckCodeScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: LightAppColors.onBoardingSurface,
       body: SafeArea(
         child: Center(
           child: Column(
