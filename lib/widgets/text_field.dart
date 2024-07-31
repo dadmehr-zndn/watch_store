@@ -48,7 +48,7 @@ class WatchStoreTextField extends StatelessWidget {
           11.h.height,
           SizedBox(
             height: 42.h,
-            width: 260.w,
+            width: double.infinity,
             child: TextField(
               controller: controller,
               keyboardType: textInputType,
