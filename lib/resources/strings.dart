@@ -62,4 +62,8 @@ class AppStrings {
   static const String proccessing = 'در حال پردازش';
   static const String cancelled = 'لغو شده';
   static const String delivered = 'تحویل';
+
+  // TODO: delete these fake strings
+  static const String fakeProductName = 'ساعت مردانه نیوفورس';
+  static const String fakeProductDiscountCountdown = '09:26:22';
 }
