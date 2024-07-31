@@ -9,6 +9,25 @@
 
 import 'package:flutter/widgets.dart';
 
+class $AssetsFakeSliderImagesGen {
+  const $AssetsFakeSliderImagesGen();
+
+  /// File path: assets/fake_slider_images/a.jpg
+  AssetGenImage get a => const AssetGenImage('assets/fake_slider_images/a.jpg');
+
+  /// File path: assets/fake_slider_images/b.jpg
+  AssetGenImage get b => const AssetGenImage('assets/fake_slider_images/b.jpg');
+
+  /// File path: assets/fake_slider_images/c.jpg
+  AssetGenImage get c => const AssetGenImage('assets/fake_slider_images/c.jpg');
+
+  /// File path: assets/fake_slider_images/d.jpg
+  AssetGenImage get d => const AssetGenImage('assets/fake_slider_images/d.jpg');
+
+  /// List of all assets
+  List<AssetGenImage> get values => [a, b, c, d];
+}
+
 class $AssetsPngGen {
   const $AssetsPngGen();
 
@@ -125,6 +144,8 @@ class $AssetsSvgGen {
 class Assets {
   Assets._();
 
+  static const $AssetsFakeSliderImagesGen fakeSliderImages =
+      $AssetsFakeSliderImagesGen();
   static const $AssetsPngGen png = $AssetsPngGen();
   static const $AssetsSvgGen svg = $AssetsSvgGen();
 }
