@@ -10,4 +10,7 @@ class RoutesNames {
   static const String homeScreen = '/homeScreen';
   static const String cartScreen = '/cartScreen';
   static const String profileScreen = '/profileScreen';
+
+  static const String productListScreen = '/productListScreen';
+  static const String productSingleScreen = '/productSingleScreen';
 }
