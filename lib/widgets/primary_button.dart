@@ -13,15 +13,18 @@ class WatchStorePrimaryButton extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return SizedBox(
-      height: 42.h,
-      width: 260.w,
-      child: ElevatedButton(
-        style: LightAppButtonStyles.primaryButton,
-        onPressed: onPressed,
-        child: Text(
-          text,
-          style: LightAppTextStyles.primaryButtonText,
+    return Padding(
+      padding: EdgeInsets.symmetric(horizontal: 84.w),
+      child: SizedBox(
+        height: 42.h,
+        width: double.infinity,
+        child: ElevatedButton(
+          style: LightAppButtonStyles.primaryButton,
+          onPressed: onPressed,
+          child: Text(
+            text,
+            style: LightAppTextStyles.primaryButtonText,
+          ),
         ),
       ),
     );
