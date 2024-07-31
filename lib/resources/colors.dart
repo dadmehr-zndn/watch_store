@@ -5,7 +5,8 @@ class LightAppColors {
 
   // S O L I D
   static const Color primary = Color(0xff0075FB);
-  static const Color surface = Color(0xffFBFBFB);
+  static const Color onBoardingSurface = Color(0xffFBFBFB);
+  static const Color surface = Color(0xffFFFFFF);
 
   static const Color textHint = Color(0xffD9DCE4);
   static const Color textFieldLabel = Color(0xff000000);
@@ -29,12 +30,12 @@ class LightAppColors {
   static const Color appBarTitle = Color(0xff000000);
   static const Color appBarIcon = Color(0xff000000);
 
+  static const Color catTitle = Color(0xff000000);
+
+  static const Color searchBarBG = Color(0xffFFFFFF);
+  static const Color searchBarShadow = Color(0x23000000);
   static const Color searchBarIcon = Color(0xff000000);
   static const Color searchBarTextHint = Color(0xffABABAB);
-
-  static const Color sliderBorder = Color(0xff707070);
-  static const Color sliderNotSelectedFill = Color(0xffFFFFFF);
-  static const Color sliderSelectedFill = Color(0xffC1C1C1);
 
   static const Color seeAll = Color(0xff000000);
   static const Color amazing = Color(0xff391850);
@@ -48,11 +49,10 @@ class LightAppColors {
   static const Color discountPercentBG = Color(0xffFF3A3A);
   static const Color discountPercentText = Color(0xffFFFFFF);
 
-  static const Color navBarBG = Color(0xffFFFFFF);
-  static const Color navBarIcon = Color(0xffCECECE);
-  static const Color navBarIconText = Color(0xffC4C4C4);
-  static const Color navBarIconSelected = Color(0xff000000);
-  static const Color navBarIconSelectedText = Color(0xff000000);
+  static const Color btmNavBarBG = Color(0xffFFFFFF);
+  static const Color btmNavBarIconNotSelected = Color(0xffCECECE);
+  static const Color btmNavBarIconNotSelectedText = Color(0xffC4C4C4);
+  static const Color btmNavBarItemSelected = Color(0xff000000);
 
   static const Color cartCountItemBG = Color(0xffFF0000);
   static const Color cartCountItemNum = Color(0xffFFFFFF);
@@ -83,6 +83,10 @@ class LightAppColors {
   static const Color profileSectionText = Color(0xff000000);
   static const Color profileSectionIcon = Color(0xff292D32);
   static const Color statusText = Color(0xff505050);
+
+  static const Color sliderIndicatorFill = Color(0xffFFFFFF);
+  static const Color sliderIndicatorBorder = Color(0xff707070);
+  static const Color sliderIndicatorCurrecnt = Color(0xffC1C1C1);
 
   // G R A D I N T S
   static const List<Color> catClassic = [
