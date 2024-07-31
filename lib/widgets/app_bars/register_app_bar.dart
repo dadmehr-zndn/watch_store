@@ -48,6 +48,5 @@ class WatchStoreRegisterAppBar extends StatelessWidget
   }
 
   @override
-  // TODO: implement preferredSize
   Size get preferredSize => Size.fromHeight(Dimens.registerAppBarHeight);
 }
