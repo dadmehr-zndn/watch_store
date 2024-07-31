@@ -15,4 +15,13 @@ class Dimens {
   static double registerAppBarHorizontalPadding = 19.25.w;
 
   static double btmNavBar = 83.h;
+  static double btmNavBarHorizontalPadding = 32.w;
+
+  static double searchBarHeight = 52.h;
+  static double sliderHeight = 201.h;
+  static double sliderBorder = 201.h;
+  static double catSize = 61;
+  static double productItemRadius = 10;
+  static double productDiscountRadius = 10;
+  static double productEventsPadding = 12.w;
 }
