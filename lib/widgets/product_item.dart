@@ -8,12 +8,13 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:watch_store/components/components.dart';
 import 'package:watch_store/gen/assets.gen.dart';
 import 'package:watch_store/resources/resources.dart';
+import 'package:watch_store/widgets/discount_container.dart';
 
 class WatchStoreProductItem extends StatelessWidget {
   final String name;
-  final int price;
+  final String price;
   final String imagePath;
-  final int previousPrice;
+  final String previousPrice;
   final int discount;
   // TODO: not like this
   final String countdown;
@@ -23,7 +24,7 @@ class WatchStoreProductItem extends StatelessWidget {
     required this.name,
     required this.price,
     required this.imagePath,
-    this.previousPrice = 0,
+    this.previousPrice = '',
     this.discount = 0,
     this.countdown = '',
   });
@@ -92,24 +93,7 @@ class WatchStoreProductItem extends StatelessWidget {
                 ),
 
                 // D I S C O U N T
-                Visibility(
-                  visible: discount > 0,
-                  child: Container(
-                    height: 18.h,
-                    width: 34.w,
-                    decoration: BoxDecoration(
-                      color: LightAppColors.discountPercentBG,
-                      borderRadius:
-                          BorderRadius.circular(Dimens.productDiscountRadius),
-                    ),
-                    child: Center(
-                      child: Text(
-                        '$discount %',
-                        style: LightAppTextStyles.productDiscount,
-                      ),
-                    ),
-                  ),
-                ),
+                WatchStoreDiscountContainer(discount: discount),
               ],
             ),
 
