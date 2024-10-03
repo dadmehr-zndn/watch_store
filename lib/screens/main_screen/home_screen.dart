@@ -94,6 +94,7 @@ class _HomeScreenState extends State<HomeScreen> {
 
                 36.h.height,
 
+                // A M A Z I N G
                 SizedBox(
                   height: 289.h,
                   child: SingleChildScrollView(
@@ -120,17 +121,17 @@ class _HomeScreenState extends State<HomeScreen> {
                               ),
                               child: WatchStoreProductItem(
                                 name: AppStrings.fakeProductName,
-                                price: 63500,
+                                price: 63500.toPrice(),
                                 imagePath: Assets.png.watch.path,
                                 discount: 20,
-                                previousPrice: 122000,
+                                previousPrice: 122000.toPrice(),
                                 countdown: '09:26:22',
                               ),
                             );
                           },
                         ),
 
-                        // A M A Z I N G   P R O D U C T S
+                        // A M A Z I N G   P R O D U C T S   T E X T
                         RotatedBox(
                           quarterTurns: -1,
                           child: Padding(
@@ -142,8 +143,8 @@ class _HomeScreenState extends State<HomeScreen> {
                                 Row(
                                   mainAxisAlignment: MainAxisAlignment.center,
                                   children: [
-                                    RotatedBox(
-                                        quarterTurns: 1,
+                                    Transform.rotate(
+                                        angle: 1.5,
                                         child:
                                             SvgPicture.asset(Assets.svg.back)),
                                     6.w.width,
