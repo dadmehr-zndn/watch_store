@@ -3,7 +3,7 @@ class RoutesNames {
 
   static const String root = '/';
   static const String sendCodeScreen = '/sendCodeScreen';
-  static const String checkCodeScreen = '/checkCodeScreen';
+  static const String verifyCodeScreen = '/verifyCodeScreen';
   static const String registerScreen = '/registerScreen';
 
   static const String mainScreen = '/mainScreen';
