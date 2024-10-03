@@ -92,6 +92,60 @@ class LightAppTextStyles {
     fontSize: 26.sp,
     fontWeight: FontWeight.w400,
   );
+  static TextStyle termsAndConditions = TextStyle(
+    color: LightAppColors.profileSectionText,
+    fontFamily: FontFamily.dana,
+    fontSize: 12.sp,
+    fontWeight: FontWeight.w500,
+  );
+  static TextStyle status = TextStyle(
+    color: LightAppColors.statusText,
+    fontFamily: FontFamily.dana,
+    fontSize: 11.sp,
+    fontWeight: FontWeight.w400,
+  );
+  static TextStyle activeAddress = TextStyle(
+    color: LightAppColors.profileSectionText,
+    fontFamily: FontFamily.dana,
+    fontSize: 12.sp,
+    fontWeight: FontWeight.w500,
+  );
+  static TextStyle profileInfo = TextStyle(
+    color: LightAppColors.profileSectionText,
+    fontFamily: FontFamily.dana,
+    fontSize: 12.sp,
+    fontWeight: FontWeight.w300,
+  );
+  static TextStyle lastPrice = TextStyle(
+    color: LightAppColors.productCertainPrice,
+    fontFamily: FontFamily.dana,
+    fontSize: 16.sp,
+    fontWeight: FontWeight.w300,
+  );
+  static TextStyle cardProductTitle = TextStyle(
+    color: LightAppColors.productTitle,
+    fontFamily: FontFamily.dana,
+    fontSize: 13.sp,
+    fontWeight: FontWeight.w500,
+  );
+  static TextStyle cardProductPrice = TextStyle(
+    color: LightAppColors.cartProductPrice,
+    fontFamily: FontFamily.dana,
+    fontSize: 12.sp,
+    fontWeight: FontWeight.w400,
+  );
+  static TextStyle cardProductDiscount = TextStyle(
+    color: LightAppColors.cartProductDiscount,
+    fontFamily: FontFamily.dana,
+    fontSize: 12.sp,
+    fontWeight: FontWeight.w400,
+  );
+  static TextStyle secondaryButtonText = TextStyle(
+    color: LightAppColors.buttonText,
+    fontFamily: FontFamily.dana,
+    fontSize: 12.sp,
+    fontWeight: FontWeight.w400,
+  );
 
   // P R I C E
   static TextStyle productTitle = TextStyle(
@@ -125,5 +179,65 @@ class LightAppTextStyles {
     fontFamily: FontFamily.dana,
     fontSize: 13.sp,
     fontWeight: FontWeight.w300,
+  );
+  static TextStyle appBarTitle = TextStyle(
+    color: LightAppColors.appBarTitle,
+    fontFamily: FontFamily.dana,
+    fontSize: 12.sp,
+    fontWeight: FontWeight.w500,
+  );
+  static TextStyle brandsTagsText = TextStyle(
+    color: LightAppColors.brandsTagsText,
+    fontFamily: FontFamily.dana,
+    fontSize: 10.sp,
+    fontWeight: FontWeight.w500,
+  );
+  static TextStyle cartBadgeText = TextStyle(
+    color: LightAppColors.cartBadgeText,
+    fontFamily: FontFamily.dana,
+    fontSize: 13.sp,
+    fontWeight: FontWeight.w300,
+  );
+  static TextStyle appBarSingleTitle = TextStyle(
+    color: LightAppColors.appBarTitle,
+    fontFamily: FontFamily.dana,
+    fontSize: 12.sp,
+    fontWeight: FontWeight.w500,
+  );
+  static TextStyle productCardName = TextStyle(
+    color: LightAppColors.watchBrand,
+    fontFamily: FontFamily.dana,
+    fontSize: 12.sp,
+    fontWeight: FontWeight.w500,
+  );
+  static TextStyle productCardShortDetail = TextStyle(
+    color: LightAppColors.watchHeadline,
+    fontFamily: FontFamily.dana,
+    fontSize: 12.sp,
+    fontWeight: FontWeight.w500,
+  );
+  static TextStyle tabBarItem = TextStyle(
+    color: LightAppColors.tabBarItem,
+    fontFamily: FontFamily.dana,
+    fontSize: 12.sp,
+    fontWeight: FontWeight.w500,
+  );
+  static TextStyle tabBarFeature = TextStyle(
+    color: LightAppColors.watchFeature,
+    fontFamily: FontFamily.dana,
+    fontSize: 12.sp,
+    fontWeight: FontWeight.w400,
+  );
+  static TextStyle sendToAddress = TextStyle(
+    color: LightAppColors.sendToAddress,
+    fontFamily: FontFamily.dana,
+    fontSize: 12.sp,
+    fontWeight: FontWeight.w500,
+  );
+  static TextStyle sendToAddressData = TextStyle(
+    color: LightAppColors.sendToAddressData,
+    fontFamily: FontFamily.dana,
+    fontSize: 12.sp,
+    fontWeight: FontWeight.w500,
   );
 }
