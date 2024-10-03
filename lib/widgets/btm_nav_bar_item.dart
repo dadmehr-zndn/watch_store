@@ -27,6 +27,7 @@ class BtmNavBarItem extends StatelessWidget {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
+            // TODO: must using cart icon
             SvgPicture.asset(
               iconPath,
               height: 29.22.h,
