@@ -21,7 +21,14 @@ class Dimens {
   static double sliderHeight = 201.h;
   static double sliderBorder = 201.h;
   static double catSize = 61;
-  static double productItemRadius = 10;
-  static double productDiscountRadius = 10;
+  static double productItemRadius = 10.r;
+  static double productDiscountRadius = 10.r;
   static double productEventsPadding = 12.w;
+
+  static double appBarPadding = 18.4.w;
+
+  static double prodcutCardRadius = 18.r;
+
+  static double secondaryButtonBorderRadius = 5.r;
+  static double surfaceContainerBorderRadius = 18.r;
 }
