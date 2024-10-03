@@ -6,6 +6,7 @@ class LightAppColors {
   // S O L I D
   static const Color primary = Color(0xff0075FB);
   static const Color onBoardingSurface = Color(0xffFBFBFB);
+  static const Color prodcutSingleScreenBG = Color(0xffFBFBFB);
   static const Color surface = Color(0xffFFFFFF);
 
   static const Color textHint = Color(0xffD9DCE4);
@@ -29,6 +30,8 @@ class LightAppColors {
   static const Color appBarBG = Color(0xffFFFFFF);
   static const Color appBarTitle = Color(0xff000000);
   static const Color appBarIcon = Color(0xff000000);
+
+  static const Color shadow = Color(0x23000000);
 
   static const Color catTitle = Color(0xff000000);
 
@@ -54,13 +57,14 @@ class LightAppColors {
   static const Color btmNavBarIconNotSelectedText = Color(0xffC4C4C4);
   static const Color btmNavBarItemSelected = Color(0xff000000);
 
-  static const Color cartCountItemBG = Color(0xffFF0000);
-  static const Color cartCountItemNum = Color(0xffFFFFFF);
+  static const Color cartBadgeBG = Color(0xffFF0000);
+  static const Color cartBadgeText = Color(0xffFFFFFF);
+  static const Color cartBadgeBorder = Color(0xffFFFFFF);
 
   static const Color closeIcon = Color(0xff707070);
 
-  static const Color brandCategoryBG = Color(0xff0075FB);
-  static const Color brandCategoryText = Color(0xffFFFFFF);
+  static const Color brandsTagsBG = Color(0xff0075FB);
+  static const Color brandsTagsText = Color(0xffFFFFFF);
 
   static const Color watchBrand = Color(0xff000000);
   static const Color watchHeadline = Color(0xff545454);
@@ -70,6 +74,7 @@ class LightAppColors {
   static const Color tabBarSelectedItem = Color(0xff000000);
 
   static const Color sendToAddress = Color(0xff888D9B);
+  static const Color sendToAddressData = Color(0xff000000);
   static const Color arrowLeft = Color(0xff292D32);
 
   static const Color cartProductBG = Color(0xffF3F3F3);
@@ -87,6 +92,8 @@ class LightAppColors {
   static const Color sliderIndicatorFill = Color(0xffFFFFFF);
   static const Color sliderIndicatorBorder = Color(0xff707070);
   static const Color sliderIndicatorCurrecnt = Color(0xffC1C1C1);
+
+  static const Color productCardBG = Color(0xffFFFFFF);
 
   // G R A D I N T S
   static const List<Color> catClassic = [
