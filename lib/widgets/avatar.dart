@@ -30,7 +30,7 @@ class Avatar extends StatelessWidget {
 
         // T E X T
         Text(
-          AppStrings.chooseProfile,
+          text,
           style: LightAppTextStyles.textBelowAvatar,
         ),
       ],
